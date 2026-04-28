@@ -17,7 +17,7 @@ public final class NoMissDelay extends Module implements AttackListener, BlockBr
 			.setDescription(EncryptedString.of("Whether to stop hits directed to blocks"));
 
 	public NoMissDelay() {
-		super(EncryptedString.of("No Miss Delay"),
+		super(EncryptedString.of("NoMssDlay"),
 				EncryptedString.of("Doesn't let you miss your sword/axe hits"),
 				-1,
 				Category.COMBAT);
