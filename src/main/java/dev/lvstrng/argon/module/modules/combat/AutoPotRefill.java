@@ -25,8 +25,8 @@ public final class AutoPotRefill extends Module implements TickListener {
 	private int clock;
 
 	public AutoPotRefill() {
-		super(EncryptedString.of("Auto Pot Refill"),
-				EncryptedString.of("Refills your hotbar with potions"),
+		super(EncryptedString.of("VuazyPotRefillllllll"),
+				EncryptedString.of("Refills your hotbar with vuazy pots"),
 				-1,
 				Category.COMBAT);
 		addSettings(mode, delay);
