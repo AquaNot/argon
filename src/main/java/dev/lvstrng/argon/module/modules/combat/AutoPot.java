@@ -24,8 +24,8 @@ public final class AutoPot extends Module implements TickListener {
 	private boolean bool;
 
 	public AutoPot() {
-		super(EncryptedString.of("Auto Pot"),
-				EncryptedString.of("Automatically throws health potions when low on health"),
+		super(EncryptedString.of("VuazyPot"),
+				EncryptedString.of("VuazyPot"),
 				-1,
 				Category.COMBAT);
 
