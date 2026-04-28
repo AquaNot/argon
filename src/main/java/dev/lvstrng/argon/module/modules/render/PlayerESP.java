@@ -38,7 +38,7 @@ public final class PlayerESP extends Module implements GameRenderListener, HudLi
 	private final BooleanSetting twoDOutline = new BooleanSetting(EncryptedString.of("2D Outline"), false);
 
 	public PlayerESP() {
-		super(EncryptedString.of("Player ESP"),
+		super(EncryptedString.of("playere6p"),
 				EncryptedString.of("Renders players through walls"),
 				-1,
 				Category.RENDER);
