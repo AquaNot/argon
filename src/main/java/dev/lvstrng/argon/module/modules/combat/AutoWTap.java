@@ -26,8 +26,8 @@ public final class AutoWTap extends Module implements PacketSendListener, HudLis
 	private boolean jumpedWhileHitting;
 
 	public AutoWTap() {
-		super(EncryptedString.of("Auto WTap"),
-				EncryptedString.of("Automatically W Taps for you so the opponent takes more knockback"),
+		super(EncryptedString.of("Wtapper"),
+				EncryptedString.of("W Tap"),
 				-1,
 				Category.COMBAT);
 		addSettings(delay, inAir);
