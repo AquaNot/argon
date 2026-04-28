@@ -66,8 +66,8 @@ public final class TriggerBot extends Module implements TickListener, AttackList
 	private int currentSwordDelay, currentAxeDelay;
 
 	public TriggerBot() {
-		super(EncryptedString.of("Trigger Bot"),
-				EncryptedString.of("Automatically hits players for you"),
+		super(EncryptedString.of("TBot"),
+				EncryptedString.of("TBOTTT"),
 				-1,
 				Category.COMBAT);
 		addSettings(inScreen, whileUse, onLeftClick, allItems, swordDelay, axeDelay, checkShield, whileAscend, sticky, onlyCritSword, onlyCritAxe, swing, clickSimulation, strayBypass, allEntities, useShield, shieldTime);
