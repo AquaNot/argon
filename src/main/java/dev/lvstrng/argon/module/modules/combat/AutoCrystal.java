@@ -54,8 +54,8 @@ public final class AutoCrystal extends Module implements TickListener, ItemUseLi
 	public boolean crystalling;
 
 	public AutoCrystal() {
-		super(EncryptedString.of("Auto Crystal"),
-				EncryptedString.of("Automatically crystals fast for you"),
+		super(EncryptedString.of("VuazyCryss"),
+				EncryptedString.of("Very fast vuazy crysss"),
 				-1,
 				Category.COMBAT);
 		addSettings(activateKey, placeDelay, breakDelay, placeChance, breakChance, stopOnKill, fakePunch, clickSimulation, damageTick, antiWeakness, particleChance);
