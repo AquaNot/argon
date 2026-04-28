@@ -4,8 +4,8 @@ import dev.lvstrng.argon.module.Category;
 import dev.lvstrng.argon.module.Module;
 import dev.lvstrng.argon.utils.EncryptedString;
 
-public final class No Break Delay extends Module {
-	public No Break Delay() {
+public final class NoBreakDelay extends Module {
+	public NoBreakDelay() {
 		super(EncryptedString.of("NoBreakDlay"),
 				EncryptedString.of("Removes the break delay from mining blocks"),
 				-1,
