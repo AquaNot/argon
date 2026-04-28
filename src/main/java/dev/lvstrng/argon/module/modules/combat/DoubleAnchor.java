@@ -15,8 +15,8 @@ import org.lwjgl.glfw.GLFW;
 
 public final class DoubleAnchor extends Module implements TickListener {
 	public DoubleAnchor() {
-		super(EncryptedString.of("Double Anchor"),
-				EncryptedString.of("Helps you do the air place/double anchor"),
+		super(EncryptedString.of("DbleAnchr"),
+				EncryptedString.of("AchorCheats"),
 				-1,
 				Category.COMBAT);
 	}
