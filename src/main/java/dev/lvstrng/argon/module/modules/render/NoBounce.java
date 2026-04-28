@@ -6,8 +6,8 @@ import dev.lvstrng.argon.utils.EncryptedString;
 
 public final class NoBounce extends Module {
 	public NoBounce() {
-		super(EncryptedString.of("No Bounce"),
-				EncryptedString.of("Removes the crystal bounce"),
+		super(EncryptedString.of("BounceRmvr"),
+				EncryptedString.of("Removes the cryssss bounce"),
 				-1,
 				Category.RENDER);
 	}
