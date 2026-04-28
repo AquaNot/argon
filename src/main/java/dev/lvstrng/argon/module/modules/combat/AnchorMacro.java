@@ -45,8 +45,8 @@ public final class AnchorMacro extends Module implements TickListener, ItemUseLi
 	private final Set<BlockPos> ownedAnchors = new HashSet<>();
 
 	public AnchorMacro() {
-		super(EncryptedString.of("Anchor Macro"),
-				EncryptedString.of("Automatically blows up respawn anchors for you"),
+		super(EncryptedString.of("VuazyAnchr"),
+				EncryptedString.of("Very fast vuazy anchors"),
 				-1,
 				Category.COMBAT);
 		addSettings(whileUse, stopOnKill, clickSimulation, placeChance, switchDelay, switchChance, glowstoneDelay, glowstoneChance, explodeDelay, explodeChance, explodeSlot, onlyOwn, onlyCharge);
