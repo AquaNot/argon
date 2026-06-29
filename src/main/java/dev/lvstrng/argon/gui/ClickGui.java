@@ -1,10 +1,10 @@
-package dev.lvstrng.argon.gui;
+package dev.lvstrng.bunneh.gui;
 
-import dev.lvstrng.argon.Argon;
-import dev.lvstrng.argon.module.Category;
-import dev.lvstrng.argon.module.modules.client.ClickGUI;
-import dev.lvstrng.argon.utils.ColorUtils;
-import dev.lvstrng.argon.utils.RenderUtils;
+import dev.lvstrng.bunneh.Bunneh;
+import dev.lvstrng.bunneh.module.Category;
+import dev.lvstrng.bunneh.module.modules.client.ClickGUI;
+import dev.lvstrng.bunneh.utils.ColorUtils;
+import dev.lvstrng.bunneh.utils.RenderUtils;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.Click;
 import net.minecraft.client.gui.DrawContext;
@@ -16,7 +16,7 @@ import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 
-import static dev.lvstrng.argon.Argon.mc;
+import static dev.lvstrng.bunneh.Bunneh.mc;
 
 public final class ClickGui extends Screen {
 	public List<Window> windows = new ArrayList<>();
